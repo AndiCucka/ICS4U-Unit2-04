@@ -27,7 +27,7 @@ export class CarStack {
   */
   public get peak():string {
     let peakedItem = ""
-    if (this.strStack[0]) {
+    if (this.strStack > 0) {
       peakedItem = this.strStack[this.strStack.length - 1]
     } else {
       peakedItem = "nothing to peak"
