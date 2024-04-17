@@ -33,7 +33,7 @@ export class CarStack {
       peakedItem = "nothing to peak"
     }
     return peakedItem
-  
+  }
   /*
   * returns stack size
   */
